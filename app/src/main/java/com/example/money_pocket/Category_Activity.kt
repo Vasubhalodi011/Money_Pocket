@@ -21,6 +21,7 @@ class Category_Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         Categorybinding = ActivityCategoryBinding.inflate(layoutInflater)
         setContentView(Categorybinding.root)
         var db = DbHelper(this)

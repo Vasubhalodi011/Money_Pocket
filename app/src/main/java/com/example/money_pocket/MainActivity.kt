@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         db = DbHelper(this)
         dataList = db.getIncomeExpense()
 
-        revSetUP()
+       // revSetUP()
 
         initBinding()
     }
